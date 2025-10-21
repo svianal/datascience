@@ -18,11 +18,6 @@ empresa_cursor.execute('select * from empresa')
 resultado = empresa_cursor.fetchall()
 # print(resultado)}
 
-
-# for registro in resultado:
-#     print('*******************')
-#     print(f'dni : {registro[1]}')
-
 columnas = ['id','ruc','razon_social','nombre_comercial','direccion']
 
 print(tabulate(resultado,headers=columnas,tablefmt='grid'))
