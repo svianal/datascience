@@ -4,3 +4,5 @@ PASO 2 - ACTIVAR ENTORNO VIRTUAL
 source venv/Scripts/activate
 PASO 3 - INSTALAR DEPENDENCIAS
 pip install -r requirements.txt
+PASO 4 - VER LAS LIBRERIAS
+pip freeze
